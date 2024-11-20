@@ -1,19 +1,22 @@
 using System;
-using System.Windows.Forms;
+using System.Data;
 using System.Data.OleDb;
+using System.Windows.Forms;
 
-string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Documents\OBMS.accdb";
+//string connectionString = "@Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Documents\OBMS.accdb";
 
 namespace OBMS
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
+        //string connectionString = "@Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\OBMS.accdb";
+        string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\OBMS.accdb;Persist Security Info=False;";
+
+        public Form1(){
             InitializeComponent();
 
             // Set Form Properties
-            this.Text = "Bus Management System";
+            this.Text = "Online Bus Management System";
             this.Size = new System.Drawing.Size(500, 300);
 
             // Welcome Label
@@ -23,37 +26,40 @@ namespace OBMS
             lblWelcome.Location = new System.Drawing.Point(20, 20);
             this.Controls.Add(lblWelcome);
 
-            //Test Connection
-            Button btnTestConn = new Button();
-            btnTestConn.Text = "Test Connection";
-            btnTestConn.Location = new System.Drawing.Point(20,80);
-
             // Login Button
             Button btnLogin = new Button();
             btnLogin.Text = "Login";
-            btnLogin.Location = new System.Drawing.Point(20, 60);
+            btnLogin.Location = new System.Drawing.Point(20, 50);
+            btnLogin.AutoSize = true;
             btnLogin.Click += BtnLogin_Click;
             this.Controls.Add(btnLogin);
-        }
 
-        private void BtnLogin_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Login functionality is not implemented yet!");
-        }
-
-        private void btnTestConn_Click(object sender, EventArgs e)
-        {
+            // Conn Test Button
+            Button btnDbConn = new Button();
+            btnLogin.Text = "Test Connection";
+            btnLogin.Location = new System.Drawing.Point(30, 90);
+            btnLogin.AutoSize = true;
+            btnLogin.Click += BtnDbConn_Click;
+            this.Controls.Add(btnDbConn);
             
+        }
 
-            try
-            {
-                using var conn = new OleDbConnection(connectionString);
-                conn.Open();
-                MessageBox.Show("Database Connected Successfully");
-            catch (Exception ex)
-                {
-                    MessageBox.Show($"Error: {ex.Message}");
+        private void BtnLogin_Click(object sender, EventArgs e){
+            MessageBox.Show("Login functionality not implemented yet!");
+        }
+
+        private void BtnDbConn_Click(object sender, EventArgs e){
+            try{
+                using (OleDbConnection conn = new OleDbConnection(connectionString)){
+                    conn.Open();
+                    MessageBox.Show("Successfully Connected to DB");
+                }
+            } 
+            catch(Exception ex) {
+                MessageBox.Show($"Error: {ex.Message}");
             }
         }
+
     }
+
 }

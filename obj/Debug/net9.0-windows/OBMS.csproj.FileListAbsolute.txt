@@ -13,3 +13,7 @@ C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\refint\OB
 C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.pdb
 C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.genruntimeconfig.cache
 C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\ref\OBMS.dll
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\bin\Debug\net9.0-windows\System.Data.OleDb.dll
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Data.OleDb.dll
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.csproj.AssemblyReference.cache
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.csproj.Up2Date
