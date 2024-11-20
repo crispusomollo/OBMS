@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OBMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+753bb84eb88d3b5099129b57cad1e16be73cf2c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2486adbc45dbcf6b68612d47cb0bf0bd4d23d283")]
 [assembly: System.Reflection.AssemblyProductAttribute("OBMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OBMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
