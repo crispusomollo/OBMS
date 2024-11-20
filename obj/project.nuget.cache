@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9qoOmCddMHM=",
+  "dgSpecHash": "DTU08lPiNB8=",
   "success": true,
   "projectFilePath": "C:\\Users\\crispus.omollo\\Documents\\GitHub\\OBMS\\OBMS.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\crispus.omollo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.0\\microsoft.netcore.app.runtime.win-x64.9.0.0.nupkg.sha512",
+    "C:\\Users\\crispus.omollo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.0.nupkg.sha512",
+    "C:\\Users\\crispus.omollo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.0\\microsoft.aspnetcore.app.runtime.win-x64.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
