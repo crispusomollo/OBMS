@@ -1,0 +1,15 @@
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\bin\Debug\net9.0-windows\OBMS.exe
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\bin\Debug\net9.0-windows\OBMS.deps.json
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\bin\Debug\net9.0-windows\OBMS.runtimeconfig.json
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\bin\Debug\net9.0-windows\OBMS.dll
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\bin\Debug\net9.0-windows\OBMS.pdb
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.AssemblyInfoInputs.cache
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.AssemblyInfo.cs
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.csproj.CoreCompileInputs.cache
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.sourcelink.json
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.dll
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\refint\OBMS.dll
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.pdb
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\OBMS.genruntimeconfig.cache
+C:\Users\crispus.omollo\Documents\GitHub\OBMS\obj\Debug\net9.0-windows\ref\OBMS.dll
