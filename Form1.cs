@@ -37,7 +37,7 @@ namespace OBMS
             // Conn Test Button
             Button btnDbConn = new Button();
             btnLogin.Text = "Test Connection";
-            btnLogin.Location = new System.Drawing.Point(30, 90);
+            btnLogin.Location = new System.Drawing.Point(20, 90);
             btnLogin.AutoSize = true;
             btnLogin.Click += BtnDbConn_Click;
             this.Controls.Add(btnDbConn);
